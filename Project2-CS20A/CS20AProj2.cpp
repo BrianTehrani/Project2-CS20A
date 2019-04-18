@@ -63,11 +63,8 @@ int main() {
 
 	s.printList();
 	printListReversed(s); cout << endl;
-	//s.printList(); cout << endl;
 
-/*
 	cout << "below is stack stuff: "<< endl;
-	
 	
 	cout << p.isEmpty() << endl;
 	p.push("one");
@@ -78,13 +75,5 @@ int main() {
 	cout<<p.peek()<<endl;
 	cout << p.isEmpty() << endl;
 	
-	/*
-	 * Prints:
-	 *
-	 * four, three, two, one, zero,
-	 *
-	 */
-	//printListReversed(s);
-
 	return 0;
 }
