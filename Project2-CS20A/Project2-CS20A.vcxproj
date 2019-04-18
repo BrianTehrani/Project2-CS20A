@@ -115,6 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="SimpleList.h" />
+    <ClInclude Include="SimpleStack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CS20AProj2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
