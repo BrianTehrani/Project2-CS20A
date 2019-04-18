@@ -1,10 +1,8 @@
+#pragma once
 /*
  * SimpleStack.h
  *
  */
-
-#ifndef SIMPLESTACK_H_
-#define SIMPLESTACK_H_
 
 #include "SimpleList.h"
 
@@ -33,5 +31,3 @@ public:
 	 */
 	string peek() const;
 };
-
-#endif /* SIMPLESTACK_H_ */

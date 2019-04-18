@@ -1,10 +1,8 @@
+#pragma once
 /*
  * SimpleList.h
  *
  */
-
-#ifndef SIMPLELIST_H_
-#define SIMPLELIST_H_
 
 #include <string>
 using namespace std;
@@ -64,4 +62,3 @@ public:
 	void printList() const;
 };
 
-#endif /* SIMPLELIST_H_ */
