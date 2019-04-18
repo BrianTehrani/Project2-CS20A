@@ -15,9 +15,13 @@ using namespace std;
  * 
  */
 void printListReversed(SimpleList l) {
-
+	
 	// Your code here
-
+	SimpleStack temp;
+	for (int i = 0; i < l.getSize(); i++)
+	{
+		cout << l.get(i) << ",";
+	}
 }
 
 
@@ -56,7 +60,7 @@ int main() {
 	printListReversed(s); cout << endl;
 	//s.printList(); cout << endl;
 
-	
+/*
 	cout << "below is stack stuff: "<< endl;
 	
 	

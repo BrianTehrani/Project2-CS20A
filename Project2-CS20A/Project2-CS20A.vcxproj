@@ -121,6 +121,7 @@
   <ItemGroup>
     <ClCompile Include="CS20AProj2.cpp" />
     <ClCompile Include="SimpleList.cpp" />
+    <ClCompile Include="SimpleStack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
