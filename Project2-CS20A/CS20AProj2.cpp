@@ -74,6 +74,12 @@ int main() {
 	cout<< p.pop()<< endl;
 	cout<<p.peek()<<endl;
 	cout << p.isEmpty() << endl;
+
+	//making sure to delete dynamic nodes
+	for (int i = 0; i < s.getSize(); i++)
+	{
+		s.removeFront();
+	}
 	
 	return 0;
 }
