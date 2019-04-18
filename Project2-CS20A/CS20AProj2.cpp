@@ -20,7 +20,12 @@ void printListReversed(SimpleList l) {
 	SimpleStack temp;
 	for (int i = 0; i < l.getSize(); i++)
 	{
-		cout << l.get(i) << ",";
+		temp.push(l.get(i));
+	}
+
+	for (int j = 0; j < l.getSize(); j++)
+	{
+		cout << temp.pop() << ",";
 	}
 }
 
